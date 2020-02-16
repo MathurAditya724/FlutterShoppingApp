@@ -27,7 +27,7 @@ class Product with ChangeNotifier {
   Future<void> toggleFavoriteStatus(String token, String userId) async {
     final oldStatus = isFavorite;
     final url =
-        "https://trans-shuttle-231218.firebaseio.com/userFavorites/$userId/$id.json?auth=$token";
+        "https://<API Key>.firebaseio.com/userFavorites/$userId/$id.json?auth=$token";
     _setFavValue(!isFavorite);
     try {
       final response = await http.put(
