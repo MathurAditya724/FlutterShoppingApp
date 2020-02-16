@@ -1,16 +1,28 @@
-# my_shop
+# Flutter Shopping App
 
-A new Flutter project.
+A Simple shopping app created using flutter and also using google Firebase API for database requests.
 
-## Getting Started
+## Basic Setup
 
-This project is a starting point for a Flutter application.
+This app work's with google firebase, so you would be nneded to create an account and get you API Keys an place them in the code. In the provider folder in lib, you need to add the api url in *auth.dart*, *orders.dart*, *product.dart* and *products.dart* files in place of **API Key**.
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Here is my twitter post where I give the [demo of the app](https://twitter.com/MathurAditya7/status/1206662248996818945).
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Build With
+
+- Flutter - The SDK
+- Dart - The programming language
+- provider - State Management
+- intl - For internationalized/localized dates
+- http - Future-based API for HTTP requests
+- shared_preferences - For reading and writing simple key-value pairs
+
+## Authors
+
+**Aditya Mathur**, you can find me on [Twitter](https://twitter.com/mathuraditya7) or [LinkedIn](https://www.linkedin.com/in/aditya-mathur-7240/)
+
+## License
+
+This project is licensed under the MIT License
