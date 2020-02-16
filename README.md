@@ -4,7 +4,7 @@ A Simple shopping app created using flutter and also using google Firebase API f
 
 ## Basic Setup
 
-This app work's with google firebase, so you would be nneded to create an account and get you API Keys an place them in the code. In the provider folder in lib, you need to add the api url in *auth.dart*, *orders.dart*, *product.dart* and *products.dart* files in place of **API Key**.
+This app work's with google firebase, so you would be needed to create an account and get your API Keys a place them in the code. In the provider folder in lib, you need to add the API URL in *auth.dart*, *orders.dart*, *product.dart* and *products.dart* files in place of **API Key**.
 
 ## Demo
 
